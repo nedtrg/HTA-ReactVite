@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  --yellow-light: #ffeb3b; /* Light yellow */
+  --yellow-medium: #ffeb33; /* Medium yellow */
+  --yellow-dark: #fbc02d; /* Dark yellow */
+  --yellow-accent: #ffca28; /* Accent yellow */
+  --yellow-gold: #ffc107; /* Gold yellow */
+  --yellow-pale: #fff59d; /* Pale yellow */
+  --black: #000000; /* Black */
+  --white: #ffffff; /* White */
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-bar > a {
+  text-decoration: none;
+  color: var(--yellow-pale);
+  font-weight: bold;
+}
+
+.nav-bar > a:hover {
+  color: var(--yellow-dark);
+}
+
+.foot {
+  margin-top: auto;
+  text-align: center;
+  background-color: var(--yellow-pale);
+  color: black;
+  font-weight: bold;
+}
+
+.homelayout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
